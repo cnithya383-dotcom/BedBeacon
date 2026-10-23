@@ -286,7 +286,7 @@ function render() {
     list.innerHTML =
       '<div class="hospital"><h3>No exact match found</h3><p>Alternative hospitals:</p></div>'; 
     hospitals.filter(h=>{
-      list.innerHTML += '<div class="hosital"><h3>${h.name}</h3><p>$
+      list.innerHTML += '<div class="hospital"><h3>${h.name}</h3><p>$
       {h.location} . Demo beds: $
       {selectedBeds(h)}</p></div>';
                      });
